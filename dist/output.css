@@ -63,6 +63,22 @@ body {
   line-height: inherit;
   /* 2 */
 }
+.border-wrapper {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.no-order {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 30px; /* Jarak antara logo dan nomor order */
+  /* border: 1px solid black; */
+  /* border-radius: 5px; */
+  padding: 8px 20px;
+  background-color: white;
+}
 
 
 
