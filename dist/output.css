@@ -62,14 +62,18 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
+  
 }
 .border-wrapper {
-  margin-top: 50px;
-  margin-bottom: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
-  width: max-content;
-  align-items: center;
+  
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2rem;
+margin-bottom: 200px;
+width: 105mm;
+  height: 148mm;
+ 
 }
 
 .no-order {
