@@ -11,18 +11,21 @@
   <div class=" border-wrapper">
     <div class="border border-black p-4 w-105 h-148  ">
       <!-- Lebar lebih besar dari tinggi -->
-      <div class="no-order  flex justify-center items-center text-xs">
+      <div class="no-order  flex justify-center items-center text-lg font-holtwood" id="order_name">
         <span>No Order : #123</span>
       </div>
       
       <div class="logo my-0">
-        <div class="flex items-center justify-between border-dotted border border-black p-4">
+        <div class="flex items-center justify-between border-dotted border border-black p-4 " id="logo">
           <div class="flex items-center">
             <img src="/assets/images/yoi.jpg" class="w-25 h-20" alt="">
-            <span class="text-sm">20/10/2023</span>
+            <span class="text-sm" id="date">
+              20/10/2023
+            </span>
           </div>
-          <div class="jne">
-            <img src="/assets/images/sicepat.png" class="w-22 h-20" alt="">
+
+          <div class="jne" id="courier_logo">
+            <img src="/assets/images/sicepat.png" class="w-22 h-20" alt="" id="">
           </div>
         </div>
       </div>
@@ -33,7 +36,7 @@
         <div class="service-name text-center mt-2 mb-3" > 
           <h1 class="font-bold text-xs"> Jenis Layanan : Siuntung</h1>
         </div>
-        <table class="w-full border-dotted  text-xs mt-1 mb-1">
+        <table class="w-full border-dotted  text-xs mt-1 mb-1 ">
           <thead>
               <tr>
                   <th class="border p-2">Barcode</th>
@@ -69,11 +72,11 @@
         <tbody>
           <tr>
               <td class="border p-2 text-center">John Doe shop</td>
-              <td class="border">
+              <td class="border text-lg">
                   <ul>
                       <li>Nama : HARI PURNOMO</li>
                       <li>No Telpon: 0877765545 </li>
-                      <li>Alamat: PASAR MEONG </li>
+                      <li>Alamat lengkap: PASAR MEONG </li>
                       </ul>
                  
               </td>
@@ -122,6 +125,13 @@
       </div>
     </div>
   </div>
+
+<div class="container">
+  <input type="text">
+</div>
+  <script>
+
+  </script>
 
 </body>
 </html>
