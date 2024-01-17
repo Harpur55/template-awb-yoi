@@ -8,10 +8,20 @@
 </head>
 <body>
   
- 
+  <div class="flex justify-center mt-1 mb-3">
+    <label for="courier_dropdown">Choose a courier:</label>
+    <select id="courier_dropdown">
+        <option value="jne">jne</option>
+        <option value="sicepat">sicepat</option>
+        <option value="anteraja">anteraja</option>
+        <option value="paxel">paxel</option>
+    </select>
+    <button id="submit_btn" class="gap-2">Submit</button>
+  </div>
+  <br>
   
   <div class="container">
-    <div class="border border-black p-4 w-105 h-148">
+    <div class="border border-black p-4 w-105 h-148  ">
       <!-- Lebar lebih besar dari tinggi -->
       <div class="no-order  flex justify-center items-center text-lg font-holtwood" id="order_name">
         <span>No Order : #123</span>
@@ -27,7 +37,7 @@
           </div>
 
           <div class="logo">
-            <img src="assets/images/jne.png" class="w-22 h-20" alt="logo-Kurir" id="logoKurir" >
+            <img src="/assets/images/jne.png" class="w-22 h-20" alt="logo-Kurir" id="logoKurir" >
           </div>
         </div>
       </div>
@@ -39,23 +49,19 @@
           <h1 class="font-bold text-xs"> Sicepat : Siuntung</h1>
         </div>
       
-        <table class="w-full border-dotted  text-xs mt-1 mb-1 ">
+        <table class="w-full border-dotted  text-lg mt-1 mb-1 ">
           <thead>
               <tr>
-                  <th class="border p-2">Barcode</th>
+                 
                   <th class="border p-2">No resi : 1234567890</th>
               </tr>
           </thead>
           <tbody>
               <tr>
+                 
                   <td class="border p-2 text-center">
                       <div class="flex justify-center items-center">
-                          <img src="./assets/images/barcode2.png" class="w-20" alt="">
-                      </div>
-                  </td>
-                  <td class="border p-2 text-center">
-                      <div class="flex justify-center items-center">
-                          <img src="/assets/images/barcode.png" class="w-20" alt="">
+                          <img src="/assets/images/barcode.png" class="w-25" alt="">
                       </div>
                   </td>
               </tr>
@@ -64,43 +70,41 @@
       </table>
     
       
-      
-      
-      <table class="w-full border-dotted border border-black  mt-4 text-xs text-justify mx-20">
-        <thead>
-          <tr>
-              <th class="border pl-2 w-1/2" style="width: 250px;">Nama Pengirim</th>
-              <th class="border p-2 w-1/2" style="width: 300px;">Alamat Penerima</th>
-          </tr>
+        <table class="w-full border-dotted border border-black  mt-4 text-xs text-justify mx-20">
+          <!-- ... (Table Alamat Pengirim) ... -->
+          <thead>
+            <tr>
+                <th class="border pl-2 ">Nama Pengirim</th>
+                <th class="border p-2 ">Alamat Penerima</th>
+            </tr>
         </thead>
         <tbody>
-          <tr  >
+          <tr>
               <td class="border p-2 text-xs">
                 <ul>
                   <li>
-                    Nama pengirim : jhone doe  
-                  </li>
-                  <li>
-                    Nama Toko : jhone doe
+                    Nama pengirim : jhone doe
                   </li>
                   <li>
                     No telpon : 098765467890
                   </li>
                   <li>
-                    Nama Kota : BOGOR
+                    Alamat Lengkap : Madison Square Block SHC 2 No.3, Ciangsana, Kec. Gn. Putri, Kabupaten Bogor, Jawa Barat 16968
                   </li>
                 </ul>
               </td>
-              <td class="border p-2 text-xs">
-                <ul>
-                  <li>Nama : Hari Purnomo</li>
-                  <li>No Telpon: 0877765545 </li>
-                  <li>Alamat lengkap : Madison Square Block SHC 2 No.3, Ciangsana, Kec. Gn. Putri, Kabupaten Bogor, Jawa Barat 16968 </li>
-                </ul>
+              <td class="border  p-2 text-xs">
+                  <ul>
+                      <li>Nama : Hari Purnomo</li>
+                      <li>No Telpon: 0877765545 </li>
+                      <li>Alamat lengkap : Madison Square Block SHC 2 No.3, Ciangsana, Kec. Gn. Putri, Kabupaten Bogor, Jawa Barat 16968 </li>
+                      </ul>
+                 
               </td>
           </tr>
-        </tbody>
-      </table>
+      </tbody>
+        </table>
+
         <table class="w-full border border-collapse border-black mt-3 text-center text-xs mr-3.5">
           <thead>
               <tr>

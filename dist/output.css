@@ -749,6 +749,8 @@ video {
   width: 100%;
 }
 
+
+
 .w-32 {
   width: 10rem;
 }
@@ -772,6 +774,7 @@ video {
 .w-80 {
   width: 20rem;
 }
+
 
 .w-0 {
   width: 0px;
